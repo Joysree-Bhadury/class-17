@@ -1,0 +1,172 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+}
+
+
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+main-box {
+    background-color: gainsboro;
+    width: 100%;
+}
+
+.header-icon-and-search {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.header-icon-search-box {
+    width: 1024px;
+    height: auto;
+    margin: auto;
+}
+
+.header-icon>ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-icon>ul>li>a {
+    padding: 10px;
+    display: block;
+    color: white;
+}
+
+.header-icon>ul>li>a:hover {
+    color: yellow;
+}
+
+.header-icon>ul>li>a {
+    transition: all 0.5s;
+}
+
+.header-icon-search-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-search input {
+    padding: 5px;
+    border-radius: 13px;
+}
+
+.header-main-logo-and-date {
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main-logo img {
+    max-width: 100%;
+}
+
+.date-box>ul {
+    list-style: none;
+    text-align: right;
+}
+
+.date-box>ul>li {
+    padding: 4px 0;
+    margin: 4px 0;
+    border-bottom: 1px dashed black;
+}
+
+.date-box>ul>li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.header-main-menu {
+    width: 100%;
+    background-color: wheat;
+    border-bottom: 3px solid red;
+}
+
+.header-main-menu {
+    width: 100%;
+    background-color: black;
+    border-bottom: 3px solid red;
+}
+
+.header-main {
+    width: 1024px;
+    margin: auto;
+}
+
+.header-main>nav>ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-main>nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+.header-main>nav>ul>li>ul.sub-menu {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    position: absolute;
+    display: none;
+    background: black;
+    width: max-content;
+}
+
+.header-main>nav>ul>li>ul.sub-menu>li>a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 4px 0;
+}
+
+.header-main>nav>ul>li {
+    position: relative;
+}
+
+.header-main>nav>ul>li:hover .sub-menu {
+    display: block;
+}
+
+.header-main>nav>ul>li>ul.sub-menu>li>a {
+    padding: 5px 9px;
+    display: block;
+    color: white;
+}
+
+.header-main>nav>ul>li>ul.sub-menu>li>a {
+    padding: 5px 9px;
+    display: block;
+    color: white;
+}
+
+
+.header-main>nav>ul>li>a:hover {
+    color: white;
+    background: red;
+}
+
+.header-main>nav>ul>li>a {
+    transition: all 0.5s ease-in-out;
+}
+
+.header-search .fa-solid {
+    color: white;
+}
+
